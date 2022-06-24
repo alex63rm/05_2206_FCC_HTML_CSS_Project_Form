@@ -8,7 +8,36 @@
     <title>Alex First Survey Form</title>
 </head>
 <body>
-    
-</body>
+    <!--Link is pending-->
+    <form id="survey-form" action="">
+    <div>
+    <h1 id="title">Alex First Survey Form</h1>
+    <p id="description">This is my first form, thank you FreeCodeCamp!</p>
+    </div>
+    <div>
+        <fieldset>
+            <label id="name-label">Name: </label>
+            <input required type="text" id="name" placeholder="Enter your name">
+            <!--check validations after clicking submit IF NOT EMAIL-->
+            <label id="email-label"; id="email">Email: </label>
+            <input required type="email" id="email" placeholder="Enter your e-mail">
+            <label id="number-label">Age (optional): </label>
+            <!--check validations after clicking submit: NON-number, >99 or <18-->
+            <input type="number" id="number" placeholder="Age" min="18" max="99">
+            <label id="dropdown">Which option best describes your current role?</label>
+                <select id="dropdown">
+                    <option value="0">Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Prefer Not To Say</option>
+                    <option value="5">Other</option>
+                </select>
+          
+            
 
+        </fieldset>
+    </div>
+</form>
+</body>
 </html>

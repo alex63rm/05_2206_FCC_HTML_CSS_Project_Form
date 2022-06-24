@@ -1,6 +1,43 @@
 body{
     background-image: url(https://i.postimg.cc/3NT51xZr/sean-pollock-Ph-Yq704ffd-A-unsplash.jpg);
+    width: 100%;
+    margin: 0;
+    
+}
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  padding-bottom: 2em;
+
   }
-  div{
-    background-color: blue;
+div{
+    background-color: rgba(33, 117, 208, 0.95);
+    color:rgb(153, 224, 39);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
   }
+h1, p{
+    margin: 0.5em auto;
+    text-align: center;
+    padding: 1rem;
+  }
+fieldset{
+    border: 0;
+    padding: 1rem 0;
+    }
+
+label {
+    display: block;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+input, select {
+    display: block;
+    margin:auto;
+    padding: 0.3rem;
+    width: 80%;
+    min-height: 1em;
+}
