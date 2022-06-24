@@ -24,7 +24,7 @@
             <label id="number-label">Age (optional): </label>
             <!--check validations after clicking submit: NON-number, >99 or <18-->
             <input type="number" id="number" placeholder="Age" min="18" max="99">
-            <label id="dropdown">Which option best describes your current role?</label>
+            <label>Which option best describes your current role?</label>
                 <select id="dropdown">
                     <option value="0">Select current role</option>
                     <option value="1">Student</option>
@@ -34,16 +34,16 @@
                     <option value="5">Other</option>
                 </select>
           <label id="time">How often do you plan to study coding?</label>
-          <label><input class="radio" type="radio" name="excluding" checked><p type="radio">Less than 2 hours a week</p></label>
-          <label><input class="radio" type="radio" name="excluding"><p type="radio">Between 2 to 5 hours a week</p></label>  
-          <label><input class="radio" type="radio" name="excluding"><p type="radio">More than 5 hours per week</p></label>
+          <label><input class="radio" type="radio" name="excluding" checked value="0"><p type="radio">Less than 2 hours a week</p></label>
+          <label><input class="radio" type="radio" name="excluding" value="1"><p type="radio">Between 2 to 5 hours a week</p></label>  
+          <label><input class="radio" type="radio" name="excluding" value="2"><p type="radio">More than 5 hours per week</p></label>
           <label>Please briefly describe your study plan: </label>
           <textarea name="studyPlan" rows="5" columns="auto" placeholder="I will wake up 1 hour sooner and..."></textarea>
           <label>Select your areas of interest: </label>
-          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox">Cibersecurity</p></label>
-          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox">Data Science</p></label>
-          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox">Network administration</p></label>
-          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox">Hardware</p></label>
+          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox" value="0">Cibersecurity</p></label>
+          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox" value="1">Data Science</p></label>
+          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox" value="2">Network administration</p></label>
+          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox" value="3">Hardware</p></label>
           <input type="submit" id="submit">            
         </fieldset>
     </div>
