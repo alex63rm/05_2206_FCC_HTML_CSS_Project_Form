@@ -23,6 +23,16 @@ h1, p{
     text-align: center;
     padding: 1rem;
   }
+p[type="radio"]{
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-size: 90%;
+    }
+p[type="checkbox"]{
+        display: inline;
+        color: rgb(255, 255, 255);
+        font-size: 90%;
+}
 fieldset{
     border: 0;
     padding: 1rem 0;
@@ -34,10 +44,27 @@ label {
     padding: 0.5rem;
 }
 
-input, select {
+input, select, textarea {
     display: block;
     margin:auto;
     padding: 0.3rem;
     width: 80%;
     min-height: 1em;
+}
+.radio,.checkbox{
+    display: inline;
+    width: auto;
+    vertical-align: auto;
+    margin-left: 1.5rem;
+    margin-right: 0rem;
+}
+input[type="submit"] {
+    display: block;
+    margin:auto;
+    padding: 0.3rem;
+    width: 40%;
+    min-height: 2em;
+    background-color: rgb(153, 224, 39);
+    font-size: 1.1em;
+    
 }

@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <title>Alex First Survey Form</title>
+    <title>Noob Coder's Pledge</title>
 </head>
 <body>
     <!--Link is pending-->
     <form id="survey-form" action="">
     <div>
-    <h1 id="title">Alex First Survey Form</h1>
-    <p id="description">This is my first form, thank you FreeCodeCamp!</p>
+    <h1 id="title">Noob Coder's Pledge</h1>
+    <p id="description">From blaster to master, thank you FreeCodeCamp!</p>
     </div>
     <div>
         <fieldset>
@@ -33,9 +33,18 @@
                     <option value="4">Prefer Not To Say</option>
                     <option value="5">Other</option>
                 </select>
-          
-            
-
+          <label id="time">How often do you plan to study coding?</label>
+          <label><input class="radio" type="radio" name="excluding" checked><p type="radio">Less than 2 hours a week</p></label>
+          <label><input class="radio" type="radio" name="excluding"><p type="radio">Between 2 to 5 hours a week</p></label>  
+          <label><input class="radio" type="radio" name="excluding"><p type="radio">More than 5 hours per week</p></label>
+          <label>Please briefly describe your study plan: </label>
+          <textarea name="studyPlan" rows="5" columns="auto" placeholder="I will wake up 1 hour sooner and..."></textarea>
+          <label>Select your areas of interest: </label>
+          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox">Cibersecurity</p></label>
+          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox">Data Science</p></label>
+          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox">Network administration</p></label>
+          <label><input class="checkbox" type="checkbox"></checkbox><p type="checkbox">Hardware</p></label>
+          <input type="submit" id="submit">            
         </fieldset>
     </div>
 </form>
